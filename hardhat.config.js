@@ -15,7 +15,7 @@
    },
    etherscan: {
      apiKey: {
-      ropsten: "ZZ97GMIZW3IBPW5WC5QJYJ836SYXKJFY8H"
+      ropsten: "H9JP2ZQB7P2C7GZR99B5Q3NPMUV25V2GWM"
      }
    },
    

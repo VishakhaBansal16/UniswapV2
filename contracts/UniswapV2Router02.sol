@@ -233,7 +233,6 @@ contract UniswapV2Router02 is IUniswapV2Router02 {
 
     address public immutable override factory;
     address public immutable override WETH;
-
     modifier ensure(uint deadline) {
         require(deadline >= block.timestamp, 'UniswapV2Router: EXPIRED');
         _;
@@ -697,7 +696,7 @@ library UniswapV2Library {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'0987e465cfc15db01503eda1b9393cce6accf5a63dcdba4cf706940fc9eeb5f8' // init code hash
+                hex'559cffc9581b06d51697e9593fe8a139341216b7d29328f939efa68d9476f31c' // init code hash
             ))));
     }
 
